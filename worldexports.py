@@ -506,7 +506,7 @@ elif menu == "Conclusion":
     
     file_url = "https://uphubgrade-my.sharepoint.com/:u:/g/personal/mar_penalva_lozano_bootcamp-upgrade_com/EdU1sWyhwA1Au4CN1mZiq1sBG0IeFDlGXKdHraTCPJRufQ?e=kV9hBq"
 
-    link_text = "Click here and next click Download to view the World Exports PowerBI"
+    link_text = "Click here and next click Download to see the World Exports PowerBI"
 
     st.markdown(f"[{link_text}]({file_url})")
 
