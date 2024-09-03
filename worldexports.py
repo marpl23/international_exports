@@ -26,6 +26,7 @@ st.set_page_config(page_title='International Trade Project', layout='wide', page
 
 # --------------------IMG--------------------------
 inttrade_path = r'img\INTERNATIONALTRADE.png'
+st.image(inttrade_path, width=700)
 
 # ------------------------DATA----------------------------
 KAGGLE_USERNAME = "marpenalva"
@@ -36,7 +37,7 @@ kaggle.api.authenticate()
 def download_file_from_kaggle(dataset, path):
     kaggle.api.dataset_download_files(dataset, path=path, unzip=True)
 
-dataset = "appetukhov/international-trade-database"  # Dataset correcto
+dataset = "appetukhov/international-trade-database"
 download_path = "data/"
 
 if not os.path.exists(download_path):
