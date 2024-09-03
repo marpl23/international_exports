@@ -25,7 +25,7 @@ from sklearn.linear_model import LinearRegression
 st.set_page_config(page_title='International Trade Project', layout='wide', page_icon='🌎')
 
 # --------------------IMG--------------------------
-inttrade_path = r'img\INTERNATIONALTRADE.png'
+inttrade_path = 'img\INTERNATIONALTRADE.png'
 st.image(inttrade_path, width=700)
 
 # ------------------------DATA----------------------------
