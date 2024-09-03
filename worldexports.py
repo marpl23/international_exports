@@ -13,7 +13,7 @@ import json
 from PIL import Image
 import requests
 import plotly.graph_objs as go
-import plotly_express as px
+import plotly.express as px
 
 from scipy import stats
 from scipy.stats import ttest_ind, skew
