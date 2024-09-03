@@ -97,11 +97,6 @@ elif menu == "Analysis":
     
         st.components.v1.html(plot_html, height=600, width=1000)
         
-        with open(f"graphs2/exp/bottom_exports_{selected_year}.html", "r", encoding="utf-8") as file:
-            plot_html = file.read()
-    
-        st.components.v1.html(plot_html, height=600, width=1000)
-        
 #------------------------IMPORTS--------------------------
     
     elif analysis == "World Imports":
@@ -113,11 +108,6 @@ elif menu == "Analysis":
         st.components.v1.html(plot_html, height=600, width=1000)
         
         with open(f"graphs/imp/top_imports_{selected_year}.html", "r", encoding="utf-8") as file:
-            plot_html = file.read()
-    
-        st.components.v1.html(plot_html, height=600, width=1000)
-        
-        with open(f"graphs/imp/bottom_imports_{selected_year}.html", "r", encoding="utf-8") as file:
             plot_html = file.read()
     
         st.components.v1.html(plot_html, height=600, width=1000)
