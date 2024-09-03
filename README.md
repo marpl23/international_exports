@@ -6,6 +6,15 @@ Welcome to the final project for my data analysis bootcamp at Upgrade-Hub. This 
 
 International trade plays a pivotal role in shaping the global economy, and export activities are a key indicator of a country's economic health and competitiveness. The period from 2000 to 2020 was marked by significant events, including the rapid growth of emerging economies, the global financial crisis of 2008, and the subsequent recovery. This project examines the export performance of key countries during these periods, analyzing the trends and drawing insights that can inform future economic strategies.
 
+
+## :world_map: How to use it
+
+1. Download the kaggle.json and place this file in the ~/.kaggle/ directory (on Unix/Linux/Mac) or C:\Usersers\<Your Username>\.kaggle (on Windows).
+2. Run every .ipynb (all of them starting with the numbers 1, 2, 3 or 4) to make sure you download all the images in different folders
+3. You can start using the streamlit app (worldexports.py) for a more pleasant visualization
+4. You can see and interact with the PowerBI (.pbix) by downloading it and opening it on the app if you already have it.
+
+
 ## 🎯 Project Objectives
 
 The main objectives of this project are to:
