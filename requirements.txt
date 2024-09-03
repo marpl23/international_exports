@@ -9,3 +9,4 @@ plotly
 kaggle
 requests
 scipy
+scikit-learn
