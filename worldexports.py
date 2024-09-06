@@ -448,7 +448,7 @@ elif menu == "Machine Learning":
     st.header("Machine Learning - Regression Model")
     st.write("Here you can observe the future prediction of China's, Germany's and the USA's exports for the years 2021 to 2030")
 
-    with open(f"graphs\ML\comparative.html", "r", encoding="utf-8") as file:
+    with open(f"graphs/ML/comparative.html", "r", encoding="utf-8") as file:
             plot_html = file.read()
     
     st.components.v1.html(plot_html, height=600, width=1000)
