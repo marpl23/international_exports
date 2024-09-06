@@ -479,9 +479,9 @@ elif menu == "Machine Learning":
         col1, col2 = st.columns(2)
             
         with col1:    
-            st.image(r'graphs/ML/USA_past.png', caption='USA exports 2000 - 2020')
+            st.image(r'graphs/ML/usa_past.png', caption='USA exports 2000 - 2020')
         with col2:    
-            st.image(r'graphs/ML/USA_future.png', caption='USA exports 2021 - 2030')
+            st.image(r'graphs/ML/usa_future.png', caption='USA exports 2021 - 2030')
             
 #---------------------------CONCLUSION--------------------------------------
 elif menu == "Conclusion":
