@@ -9,10 +9,11 @@ International trade plays a pivotal role in shaping the global economy, and expo
 
 ## :world_map: How to use it
 
-1. Download the kaggle.json and place this file in the ~/.kaggle/ directory (on Unix/Linux/Mac) or C:\Usersers\<Your Username>\.kaggle (on Windows).
-2. Run every .ipynb (all of them starting with the numbers 1, 2, 3 or 4) to make sure you download all the images in different folders
-3. You can start using the streamlit app (worldexports.py) for a more pleasant visualization
-4. You can see and interact with the PowerBI (.pbix) by downloading it and opening it on the app if you already have it.
+1. You can see the Streamlit (worldexports.py) without having to download all the in 
+2. To be able to use the notebooks, download the kaggle.json and place this file in the ~/.kaggle/ directory (on Unix/Linux/Mac) or C:\Usersers\<Your Username>\.kaggle (on Windows).
+3. Run every .ipynb (all of them starting with the numbers 1, 2, 3 or 4) to make sure you download all the images in different folders
+4. You can start using and editing the streamlit app (worldexports.py) in your terminal
+5. You can see and interact with the PowerBI (.pbix) by downloading it and opening it on the app if you already have it.
 
 
 ## 🎯 Project Objectives
@@ -33,9 +34,12 @@ The main objectives of this project are to:
 
 The data for this project was sourced from various reputable global trade databases, providing comprehensive export information for multiple countries over the specified period. The data includes:
 
-- **Reporter**: The country that reports the trade data.
-- **Partner**: The trade partner country involved in the transaction.
+- **Reporter/ReporterName**: The country that reports the trade data.
+- **ReporterISO3**: ISO3 from the country that reports the trade data.
+- **Partner/PartnerName**: The trade partner country involved in the transaction.
+- **PartnerISO3**: ISO3 from the trade partner country involved in the transaction.
 - **Trade Value in 1000 USD**: The monetary value of exports, reported in thousands of USD.
+- **TradeFlow**: Exports.
 - **Year**: The year in which the trade occurred.
 
 ### Data Processing
@@ -54,6 +58,7 @@ An exploratory analysis was conducted to visualize the export trends and identif
 
 - **Line Graphs**: Visualizing annual export growth for each country.
 - **Comparative Analysis**: Comparing export performance across the three key periods: pre-crisis (2000-2007), crisis (2008-2010), and post-crisis (2011-2020).
+- **Pie Chart**: Visualizing the main export partners.
 
 ### A/B Testing
 
