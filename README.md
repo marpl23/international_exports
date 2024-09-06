@@ -9,7 +9,7 @@ International trade plays a pivotal role in shaping the global economy, and expo
 
 ## :world_map: How to use it
 
-1. You can see the Streamlit (worldexports.py) without having to download all the in 
+1. You can see the Streamlit (worldexports.py) without having to download it all in the following link (https://internationalexports.streamlit.app/)
 2. To be able to use the notebooks, download the kaggle.json and place this file in the ~/.kaggle/ directory (on Unix/Linux/Mac) or C:\Usersers\<Your Username>\.kaggle (on Windows).
 3. Run every .ipynb (all of them starting with the numbers 1, 2, 3 or 4) to make sure you download all the images in different folders
 4. You can start using and editing the streamlit app (worldexports.py) in your terminal
