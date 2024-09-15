@@ -1,4 +1,4 @@
-# 📊 Project: Analysis of International Exports (2000-2020)
+# 📊 Python: Analysis of International Exports (2000-2020)
 
 Welcome to the final project for my data analysis bootcamp at Upgrade-Hub. This project focuses on the analysis of global export trends over two decades, from 2000 to 2020, with the aim of understanding the impact of major global events, particularly the 2008 financial crisis, on international trade.
 
